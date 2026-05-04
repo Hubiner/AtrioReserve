@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Comparison east residence</title>
+  <desc id="desc">Stone palette residence illustration.</desc>
+  <defs>
+    <linearGradient id="east-bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d4c1af" />
+      <stop offset="100%" stop-color="#8d715d" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="760" fill="url(#east-bg)" />
+  <circle cx="1148" cy="152" r="98" fill="#fff1df" fill-opacity="0.76" />
+  <rect x="164" y="176" width="1068" height="340" rx="28" fill="#332822" />
+  <rect x="214" y="220" width="408" height="204" rx="20" fill="#f0dfcc" fill-opacity="0.72" />
+  <rect x="660" y="220" width="522" height="204" rx="20" fill="#faedde" fill-opacity="0.54" />
+  <rect x="198" y="460" width="1024" height="20" rx="10" fill="#ccb29b" />
+  <path d="M0 548C156 516 314 476 480 476C622 476 770 530 924 530C1096 530 1244 500 1400 448V760H0Z" fill="#7c6d6a" fill-opacity="0.48" />
+  <text x="170" y="116" fill="#2b201a" font-family="Georgia, serif" font-size="52">Residence B</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Comparison west residence</title>
+  <desc id="desc">Warm material residence illustration.</desc>
+  <defs>
+    <linearGradient id="west-bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2cfbf" />
+      <stop offset="100%" stop-color="#b68b6b" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="760" fill="url(#west-bg)" />
+  <rect x="178" y="164" width="1044" height="356" rx="30" fill="#352821" />
+  <rect x="222" y="208" width="956" height="212" rx="20" fill="#f7e8d7" fill-opacity="0.72" />
+  <rect x="236" y="464" width="320" height="18" rx="9" fill="#d7bea8" />
+  <rect x="840" y="464" width="280" height="18" rx="9" fill="#d7bea8" />
+  <path d="M0 540C178 520 316 458 486 458C640 458 774 518 934 518C1092 518 1240 482 1400 422V760H0Z" fill="#6f8a68" fill-opacity="0.55" />
+  <text x="182" y="112" fill="#2b201a" font-family="Georgia, serif" font-size="52">Residence A</text>
+</svg>

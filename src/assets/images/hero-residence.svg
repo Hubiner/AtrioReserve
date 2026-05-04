@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 860" role="img" aria-labelledby="title desc">
+  <title id="title">Atrio Reserve hero residence</title>
+  <desc id="desc">Luxury residence illustration with sky lounge and warm skyline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#efe4d5" />
+      <stop offset="100%" stop-color="#ceb39a" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ef" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ead7c4" stop-opacity="0.55" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="860" fill="url(#bg)" />
+  <circle cx="590" cy="170" r="110" fill="#fff2df" fill-opacity="0.75" />
+  <rect x="78" y="250" width="564" height="394" rx="34" fill="#2e231c" />
+  <rect x="102" y="272" width="516" height="348" rx="26" fill="#3a2d24" />
+  <rect x="134" y="308" width="452" height="246" rx="18" fill="url(#glass)" />
+  <rect x="152" y="326" width="180" height="176" rx="12" fill="#f4e5d6" fill-opacity="0.78" />
+  <rect x="348" y="326" width="220" height="176" rx="12" fill="#f7ecdf" fill-opacity="0.64" />
+  <rect x="134" y="576" width="452" height="18" rx="9" fill="#d6bea9" />
+  <rect x="146" y="606" width="146" height="12" rx="6" fill="#cba98d" />
+  <rect x="452" y="606" width="104" height="12" rx="6" fill="#cba98d" />
+  <path d="M0 700C92 662 182 648 272 658C362 668 450 714 540 714C612 714 672 688 720 660V860H0Z" fill="#b68e6b" fill-opacity="0.4" />
+  <text x="82" y="116" fill="#2a2019" font-family="Georgia, serif" font-size="38">Atrio Reserve</text>
+  <text x="82" y="158" fill="#4d4036" font-family="Verdana, sans-serif" font-size="20">Penthouse vista with private lounge and gallery axis</text>
+</svg>

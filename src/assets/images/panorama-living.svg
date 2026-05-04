@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Living panorama</title>
+  <desc id="desc">Panoramic illustration with living room, kitchen and terrace areas.</desc>
+  <defs>
+    <linearGradient id="pan-bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8ddd1" />
+      <stop offset="100%" stop-color="#c6b3a1" />
+    </linearGradient>
+  </defs>
+  <rect width="2200" height="620" fill="url(#pan-bg)" />
+  <rect x="120" y="122" width="720" height="312" rx="28" fill="#30241e" />
+  <rect x="884" y="122" width="636" height="312" rx="28" fill="#352923" />
+  <rect x="1558" y="122" width="522" height="312" rx="28" fill="#3b2d24" />
+  <rect x="160" y="166" width="640" height="228" rx="18" fill="#f5e7d9" fill-opacity="0.7" />
+  <rect x="928" y="166" width="550" height="228" rx="18" fill="#f2e0d1" fill-opacity="0.64" />
+  <rect x="1600" y="166" width="438" height="228" rx="18" fill="#faefdf" fill-opacity="0.52" />
+  <path d="M0 470C260 430 426 434 652 458C882 482 1040 522 1288 522C1540 522 1764 452 2200 390V620H0Z" fill="#8f836f" fill-opacity="0.42" />
+  <text x="120" y="80" fill="#2b201a" font-family="Georgia, serif" font-size="42">Living panorama</text>
+</svg>

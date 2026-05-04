@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atrio Reserve | Imobiliária de luxo e experiência imersiva</title>
+    <meta
+      name="description"
+      content="Landing page conceitual de uma plataforma de imóveis de alto padrão com mapa interativo, tour imersivo e simulador de financiamento."
+    />
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+      <div class="site-header-shell">
+        <a class="brand" href="#hero" aria-label="Atrio Reserve, voltar ao topo">
+          <span class="brand-mark" aria-hidden="true">AR</span>
+          <span class="brand-copy">
+            <strong>Atrio Reserve</strong>
+            <small>Curadoria imobiliária</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#mapa">Mapa</a>
+          <a href="#tour">Tour</a>
+          <a href="#financiamento">Financiamento</a>
+          <a href="#propriedades">Portfólio</a>
+        </nav>
+
+        <a class="button button-primary" href="#contato">Agendar visita</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow">Curadoria imobiliária de alto padrão</span>
+          <h1 id="hero-title">Endereços raros, apresentados com a precisão que eles merecem.</h1>
+          <p class="hero-lead">
+            Uma experiência digital pensada para clientes que decidem por atmosfera,
+            contexto e valor percebido, não apenas por metragem.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#mapa">Explorar mapa</a>
+            <a class="button button-secondary" href="#financiamento">Simular compra</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Indicadores de atuação">
+            <article>
+              <strong>12</strong>
+              <span>microterritórios monitorados</span>
+            </article>
+            <article>
+              <strong>360°</strong>
+              <span>navegação imersiva editorial</span>
+            </article>
+            <article>
+              <strong>1:1</strong>
+              <span>atendimento consultivo reservado</span>
+            </article>
+          </div>
+        </div>
+
+        <figure class="hero-visual">
+          <div class="hero-frame">
+            <img
+              src="src/assets/images/hero-residence.svg"
+              alt="Vista conceitual de uma cobertura com área social integrada e skyline ao fundo"
+            />
+          </div>
+          <figcaption class="floating-note">
+            Cobertura com sky lounge privativo, galeria contínua e iluminação em três camadas.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="map-section" id="mapa" aria-labelledby="map-title">
+        <div class="section-head">
+          <span class="eyebrow">Mapa interativo</span>
+          <h2 id="map-title">Descubra propriedades por microterritório</h2>
+          <p>
+            Um painel visual para localizar ativos selecionados, comparar contexto urbano
+            e abrir detalhes com atualização instantânea.
+          </p>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-shell">
+            <div class="map-overlay-copy">
+              <span>Seleção ativa</span>
+              <strong>3 endereços destacados</strong>
+            </div>
+
+            <svg class="district-map" viewBox="0 0 760 520" role="img" aria-labelledby="map-desc">
+              <title id="map-desc">Mapa estilizado com regiões residenciais e eixos comerciais.</title>
+              <path d="M62 108L182 52L320 92L378 48L518 90L622 40L702 124L660 214L716 296L658 410L502 454L372 428L238 474L98 390L44 262L92 182Z"></path>
+              <path d="M180 78L250 164L206 272L104 302L84 202Z"></path>
+              <path d="M296 98L396 118L412 226L286 246L250 164Z"></path>
+              <path d="M432 112L570 88L610 194L516 286L412 226Z"></path>
+              <path d="M282 254L418 234L450 354L326 388L224 332Z"></path>
+              <path d="M506 292L604 216L648 328L574 402L462 366Z"></path>
+            </svg>
+
+            <button
+              class="map-pin is-active"
+              type="button"
+              style="left: 18%; top: 41%;"
+              data-property="villa"
+              aria-controls="propertySheet"
+              aria-pressed="true"
+            >
+              <span aria-hidden="true"></span>
+              <span class="sr-only">Abrir propriedade Villa Horizon</span>
+            </button>
+            <button
+              class="map-pin"
+              type="button"
+              style="left: 49%; top: 31%;"
+              data-property="penthouse"
+              aria-controls="propertySheet"
+              aria-pressed="false"
+            >
+              <span aria-hidden="true"></span>
+              <span class="sr-only">Abrir propriedade Penthouse Sienna</span>
+            </button>
+            <button
+              class="map-pin"
+              type="button"
+              style="left: 72%; top: 58%;"
+              data-property="loft"
+              aria-controls="propertySheet"
+              aria-pressed="false"
+            >
+              <span aria-hidden="true"></span>
+              <span class="sr-only">Abrir propriedade Loft Cobalto</span>
+            </button>
+          </div>
+
+          <aside class="property-sheet" id="propertySheet" aria-live="polite" aria-labelledby="propertyName">
+            <img
+              id="propertyImage"
+              src="src/assets/images/property-villa.svg"
+              alt="Villa Horizon com jardim escultórico e área externa integrada"
+            />
+            <div class="property-copy">
+              <span class="property-label">Seleção curada</span>
+              <span id="propertyArea">Jardins reservados</span>
+              <h3 id="propertyName">Villa Horizon</h3>
+              <strong id="propertyPrice">R$ 8,4 mi</strong>
+              <p id="propertyDescription">
+                Casa contemporânea com jardim escultórico, spa privativo e integração total com a área externa.
+              </p>
+              <div class="property-meta">
+                <span>4 suítes</span>
+                <span>620 m² privativos</span>
+                <span>Piscina linear</span>
+              </div>
+              <a class="button button-primary" href="#contato">Solicitar visita exclusiva</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="compare" aria-labelledby="compare-title">
+        <div class="section-head">
+          <span class="eyebrow">Comparador lado a lado</span>
+          <h2 id="compare-title">Compare experiências residenciais no mesmo enquadramento</h2>
+          <p id="compare-help">
+            Arraste o divisor ou use as setas do teclado para comparar luz, materialidade e atmosfera.
+          </p>
+        </div>
+
+        <div class="compare-shell" id="compareShell">
+          <img src="src/assets/images/compare-west.svg" alt="Residência A com acabamento quente e lounge externo" />
+          <div class="compare-overlay" id="compareOverlay">
+            <img src="src/assets/images/compare-east.svg" alt="Residência B com composição em pedra clara e vista urbana" />
+          </div>
+          <button
+            class="compare-handle"
+            id="compareHandle"
+            type="button"
+            role="slider"
+            aria-label="Comparador visual entre imóveis"
+            aria-describedby="compare-help"
+            aria-valuemin="5"
+            aria-valuemax="95"
+            aria-valuenow="50"
+            aria-valuetext="50% da composição visível"
+          >
+            <span class="compare-handle-line" aria-hidden="true"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="tour" id="tour" aria-labelledby="tour-title">
+        <div class="section-head">
+          <span class="eyebrow">Tour 360° simulado</span>
+          <h2 id="tour-title">Arraste para explorar o ambiente panorâmico</h2>
+          <p id="tour-help">
+            O panorama responde ao arraste, às setas do teclado e aos botões laterais para manter a navegação acessível.
+          </p>
+        </div>
+
+        <div class="tour-shell">
+          <div class="tour-viewport" id="tourViewport" tabindex="0" aria-describedby="tour-help">
+            <div class="tour-panorama" id="tourPanorama">
+              <img
+                src="src/assets/images/panorama-living.svg"
+                alt="Panorama do living integrado com jantar, cozinha social e terraço"
+              />
+              <button class="tour-hotspot is-active" type="button" style="left: 24%; top: 48%;" data-hotspot="living">
+                Living
+              </button>
+              <button class="tour-hotspot" type="button" style="left: 55%; top: 36%;" data-hotspot="cuisine">
+                Cozinha
+              </button>
+              <button class="tour-hotspot" type="button" style="left: 77%; top: 44%;" data-hotspot="terrace">
+                Terraço
+              </button>
+            </div>
+          </div>
+
+          <div class="tour-detail" aria-live="polite">
+            <div class="tour-detail-head">
+              <span class="eyebrow">Leitura do espaço</span>
+              <h3 id="tourDetailTitle">Living panorâmico</h3>
+            </div>
+            <p id="tourDetailText">
+              Pé-direito generoso, marcenaria sob medida e luz natural em camada dupla.
+            </p>
+
+            <div class="tour-controls">
+              <button class="button button-secondary tour-shift" type="button" data-pan="left">
+                Mover panorama para a esquerda
+              </button>
+              <button class="button button-secondary tour-shift" type="button" data-pan="right">
+                Mover panorama para a direita
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="finance" id="financiamento" aria-labelledby="finance-title">
+        <div class="section-head">
+          <span class="eyebrow">Calculadora integrada</span>
+          <h2 id="finance-title">Visualize o financiamento com leitura imediata</h2>
+          <p id="finance-hint">
+            Ajuste valor, entrada e prazo para acompanhar uma estimativa mensal em tempo real.
+          </p>
+        </div>
+
+        <div class="finance-grid">
+          <form class="finance-form" aria-describedby="finance-hint">
+            <label for="propertyValue">Valor do imóvel</label>
+            <input id="propertyValue" type="number" min="500000" step="50000" value="3200000" inputmode="numeric" />
+
+            <label for="downPayment">Entrada</label>
+            <input id="downPayment" type="number" min="100000" step="50000" value="800000" inputmode="numeric" />
+
+            <label for="loanYears">Prazo em anos</label>
+            <input id="loanYears" type="number" min="5" max="35" step="1" value="20" inputmode="numeric" />
+          </form>
+
+          <div class="finance-result" aria-live="polite">
+            <div class="ink-bar" aria-hidden="true">
+              <span class="ink-fill" id="inkFill"></span>
+            </div>
+
+            <p class="result-label">Parcela estimada</p>
+            <strong id="installmentValue">R$ 18.420</strong>
+            <small id="fundingRatio">Entrada de 25% do valor do imóvel</small>
+
+            <div class="finance-stats">
+              <article>
+                <span>Montante financiado</span>
+                <strong id="financedAmount">R$ 2.400.000</strong>
+              </article>
+              <article>
+                <span>Horizonte de pagamento</span>
+                <strong id="paymentTerm">240 meses</strong>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="properties" id="propriedades" aria-labelledby="properties-title">
+        <div class="section-head">
+          <span class="eyebrow">Exploração refinada</span>
+          <h2 id="properties-title">Cards com hotspots e filtros personalizados</h2>
+          <p>
+            Filtre por faixa de investimento e metragem mínima para ajustar o portfólio disponível na vitrine.
+          </p>
+        </div>
+
+        <div class="filter-grid" aria-label="Filtros de propriedades">
+          <div
+            class="custom-slider"
+            data-label="Preço máximo"
+            data-min="1500000"
+            data-max="9500000"
+            data-value="4200000"
+            data-step="50000"
+            data-target="priceDisplay"
+            data-prefix="R$ "
+          >
+            <div class="slider-label-row">
+              <span>Preço máximo</span>
+              <strong id="priceDisplay">R$ 4.200.000</strong>
+            </div>
+            <div class="slider-track">
+              <div class="slider-fill"></div>
+              <button class="slider-thumb" type="button" aria-label="Ajustar preço máximo">
+                <span class="slider-bubble"></span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="custom-slider"
+            data-label="Metragem mínima"
+            data-min="80"
+            data-max="650"
+            data-value="280"
+            data-step="10"
+            data-target="areaDisplay"
+            data-suffix=" m²"
+          >
+            <div class="slider-label-row">
+              <span>Metragem mínima</span>
+              <strong id="areaDisplay">280 m²</strong>
+            </div>
+            <div class="slider-track">
+              <div class="slider-fill"></div>
+              <button class="slider-thumb" type="button" aria-label="Ajustar metragem mínima">
+                <span class="slider-bubble"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p class="filter-summary" id="filterSummary" aria-live="polite">2 imóveis dentro dos filtros atuais.</p>
+        <p class="empty-state" id="emptyState" hidden aria-live="polite">
+          Nenhum imóvel atende aos filtros atuais. Amplie a faixa de preço ou reduza a metragem mínima.
+        </p>
+
+        <div class="property-grid">
+          <article class="property-card" data-price="3900000" data-area="480">
+            <div class="property-media">
+              <img src="src/assets/images/property-villa.svg" alt="Residência Aurum com lounge, jardim e piscina aquecida" loading="lazy" />
+              <button class="media-hotspot" style="left: 72%; top: 30%;" type="button" data-tip="Piscina aquecida com borda contínua" aria-label="Hotspot: piscina aquecida com borda contínua"></button>
+              <button class="media-hotspot" style="left: 34%; top: 54%;" type="button" data-tip="Cozinha com ilha em pedra natural" aria-label="Hotspot: cozinha com ilha em pedra natural"></button>
+              <button class="media-hotspot" style="left: 17%; top: 28%;" type="button" data-tip="Lounge com lareira linear" aria-label="Hotspot: lounge com lareira linear"></button>
+            </div>
+            <div class="property-card-copy">
+              <h3>Residência Aurum</h3>
+              <p>480 m² · 4 suítes · academia privativa</p>
+            </div>
+          </article>
+
+          <article class="property-card" data-price="5200000" data-area="360">
+            <div class="property-media">
+              <img src="src/assets/images/property-penthouse.svg" alt="Penthouse Meridien com terraço gourmet e living integrado" loading="lazy" />
+              <button class="media-hotspot" style="left: 64%; top: 25%;" type="button" data-tip="Terraço gourmet com vista aberta" aria-label="Hotspot: terraço gourmet com vista aberta"></button>
+              <button class="media-hotspot" style="left: 28%; top: 48%;" type="button" data-tip="Living em madeira natural e linho" aria-label="Hotspot: living em madeira natural e linho"></button>
+              <button class="media-hotspot" style="left: 50%; top: 69%;" type="button" data-tip="Adega climatizada embutida" aria-label="Hotspot: adega climatizada embutida"></button>
+            </div>
+            <div class="property-card-copy">
+              <h3>Penthouse Meridien</h3>
+              <p>360 m² · 3 suítes · rooftop lounge</p>
+            </div>
+          </article>
+
+          <article class="property-card" data-price="3100000" data-area="280">
+            <div class="property-media">
+              <img src="src/assets/images/property-loft.svg" alt="Loft Cobalto com estrutura aparente e rooftop compartilhado" loading="lazy" />
+              <button class="media-hotspot" style="left: 59%; top: 26%;" type="button" data-tip="Estrutura metálica exposta com iluminação dimerizável" aria-label="Hotspot: estrutura metálica exposta com iluminação dimerizável"></button>
+              <button class="media-hotspot" style="left: 31%; top: 46%;" type="button" data-tip="Planta aberta para receber com flexibilidade" aria-label="Hotspot: planta aberta para receber com flexibilidade"></button>
+              <button class="media-hotspot" style="left: 74%; top: 68%;" type="button" data-tip="Rooftop compartilhado com deck de observação" aria-label="Hotspot: rooftop compartilhado com deck de observação"></button>
+            </div>
+            <div class="property-card-copy">
+              <h3>Loft Cobalto</h3>
+              <p>280 m² · 2 suítes · rooftop de observação</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contato" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <span class="eyebrow">Próximo passo</span>
+          <h2 id="contact-title">Agende uma visita guiada com curadoria dedicada.</h2>
+          <p>
+            Uma apresentação conduzida para alinhar contexto urbano, rotina desejada e percepção de valor do ativo.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a class="button button-primary" href="mailto:contato@empresa.com">Solicitar atendimento privado</a>
+          <ul class="contact-list" aria-label="Canais de contato">
+            <li><span>E-mail</span><a href="mailto:contato@empresa.com">contato@empresa.com</a></li>
+            <li><span>Telefone</span><a href="tel:+5500000000000">(00) 00000-0000</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Atrio Reserve é um conceito editorial para portfólio, preparado para deploy estático na Vercel.</p>
+    </footer>
+
+    <script src="src/scripts/main.js"></script>
+  </body>
+</html>

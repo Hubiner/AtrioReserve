@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+  <title id="title">Penthouse Sienna</title>
+  <desc id="desc">Penthouse illustration with terrace and skyline.</desc>
+  <defs>
+    <linearGradient id="pent-bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d7c1ae" />
+      <stop offset="100%" stop-color="#9f7a61" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="520" fill="url(#pent-bg)" />
+  <circle cx="118" cy="106" r="44" fill="#fff0db" fill-opacity="0.84" />
+  <rect x="90" y="142" width="520" height="240" rx="22" fill="#2c221d" />
+  <rect x="118" y="174" width="468" height="94" rx="14" fill="#f6e9dc" fill-opacity="0.72" />
+  <rect x="138" y="294" width="208" height="24" rx="12" fill="#d5bca8" />
+  <rect x="394" y="294" width="172" height="24" rx="12" fill="#d5bca8" />
+  <rect x="78" y="392" width="544" height="44" rx="14" fill="#ead7c2" fill-opacity="0.72" />
+  <path d="M0 404C88 384 168 364 252 362C330 360 412 386 498 386C580 386 648 362 700 338V520H0Z" fill="#6b6463" fill-opacity="0.56" />
+  <text x="90" y="78" fill="#2b201a" font-family="Georgia, serif" font-size="32">Penthouse Sienna</text>
+</svg>
